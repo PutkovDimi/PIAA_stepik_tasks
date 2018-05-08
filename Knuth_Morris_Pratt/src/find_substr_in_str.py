@@ -1,4 +1,4 @@
-from src.kmp_alg import kmp_find_occurrences
+from .kmp_alg import kmp_find_occurrences
 
 
 def process_answer(pattern, text):
