@@ -1,4 +1,4 @@
-###Comparing KMP and Naive findinf string algorithms
+### Comparing KMP and Naive findinf string algorithms
 
 | Algorithm     | Complexity    | Memory|
 | ------------- |:-------------:| -----:|
