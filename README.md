@@ -2,9 +2,9 @@
 
 ## Cyclic shift
 
-It's about solving of the task by link https://stepik.org/lesson/81429/step/5?unit=58105
+It's about solution of the [task](https://stepik.org/lesson/81429/step/5?unit=58105)
 
-For run the programm, run "main.py". From command line it's as:
+For run the program, run "main.py". From command line it's as:
 `python3 main.py`
 
 For tun tests, run the next command in command line:
@@ -12,10 +12,20 @@ For tun tests, run the next command in command line:
 
 ## Knutt_Morris_Pratt
 
-It's about solving of the task by link https://stepik.org/lesson/81429/step/4?unit=58105
+It's about solution of the [task](https://stepik.org/lesson/81429/step/4?unit=58105)
 
-For run the programm, run "main.py". From command line it's as:
+For run the program, run "main.py". From command line it's as:
 `python3 main.py`
 
 For tun tests, run the next command in command line(note on whitespaces in answer's parameter):
 `pytest-3 -q --pattern="val" --text="val" --answer="[ans1, ans2, ans3]" tests/test_find_substr.py`
+
+## Aho_Korasik
+
+It's about solution of the [task](https://stepik.org/lesson/85333/step/1?unit=61850)
+
+For run the program, run "main.py". From command line it's as:
+`python3 main.py`
+
+For tun tests, run the command in command line as on the example below(note on whitespaces in answer's parameter):
+`pytest-3 -q --text='CCCA' --count='3' --patterns='['C', 'CCA', 'CA']' --answer="[(1, 'C'), (2, 'C'), (3, 'C'), (2, 'CCA'), (3, 'CA')]" tests/AK_test.py`
