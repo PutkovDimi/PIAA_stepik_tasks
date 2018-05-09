@@ -1,7 +1,7 @@
-def kmp_find_occurrences(s, x):
+def kmp_find_occurrences(text, pattern):
     d = {0: 0}
-    occurrences = str()
-    template = x + '#' + s
+    occurrences = []
+    template = pattern + '#' + text
     for i in range(1, len(template)):
         j = d[i - 1]
         while j > 0 and template[j] != template[i]:
@@ -9,6 +9,7 @@ def kmp_find_occurrences(s, x):
         if template[j] == template[i]:
             j += 1
         d[i] = j
-        if j == len(x):
-            occurrences += str((i - j * 2)) + ','
+        if j == len(pattern):
+            occurrences.append(i - j * 2)
+            print(occurrences)
     return occurrences
