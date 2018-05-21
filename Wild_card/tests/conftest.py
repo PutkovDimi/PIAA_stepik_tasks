@@ -4,7 +4,7 @@ def pytest_addoption(parser):
     parser.addoption("--text", action="append", default=[],
                      help="a text where we find")
     parser.addoption("--answer", action="append", default=[],
-                     help="answer we want to get")
+                     help="Count of pattern in text")
     parser.addoption("--wild_card", action="append", default=[],
                      help="wild card")
 

@@ -28,4 +28,17 @@ For run the program, run "main.py". From command line it's as:
 `python3 main.py`
 
 For tun tests, run the command in command line as on the example below(note on whitespaces in answer's parameter):
-`pytest-3 -q --text='CCCA' --count='3' --patterns='['C', 'CCA', 'CA']' --answer="[(1, 'C'), (2, 'C'), (3, 'C'), (2, 'CCA'), (3, 'CA')]" tests/AK_test.py`
+`pytest-3 -q --text='your text' --count='count of patterns' --patterns='your patterns' --answer="[(1, 'C'), (2, 'C'), (3, 'C'), (2, 'CCA'), (3, 'CA')]" tests/AK_test.py`
+
+Example of answer was represented for correct input's format.
+
+
+## Wild_card
+
+It's about solution of the [task](https://stepik.org/lesson/85333/step/2?unit=61850)
+
+For run the program, run "main.py". From command line it's as:
+`python3 main.py`
+
+For tun tests, run the command in command line as on the example below(note on whitespaces in answer's parameter):
+`pytest -q --text='your text' --wild_card='your wild card' --pattern='your pattern' --answer='your answer' tests/WC_test.py`
